@@ -1,16 +1,7 @@
-export * from './ModalAlert.tsx'
-export * from './CardProduct.tsx'
-export * from './Navbar.tsx'
-export * from './Carousel.tsx'
-export * from './GridCardsProduct.tsx'
-export * from './TemplateEmail.tsx'
-export * from './CartCardProduct.tsx'
-export * from './CardProductView.tsx'
-export * from './ToastComponent.tsx'
-export * from './ConfirmDeleteModal.tsx'
-export * from './ButtonPaypal.tsx'
+
 
 /* news */
+export * from './Navbar.tsx'
 export * from './Icons.tsx'
 export * from './Footer.tsx'
 export * from './CardProject.tsx'

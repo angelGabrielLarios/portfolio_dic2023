@@ -44,19 +44,19 @@ export const Navbar = () => {
                     <ul className="menu menu-horizontal px-1">
 
                         <li className="font-header text-primary">
-                            <a href="#home">{t(`Home`)}</a>
+                            <a href="#home" className="lg:hover:scale-105 transition-transform">{t(`Home`)}</a>
                         </li>
 
                         <li className="font-header text-primary">
-                            <a href="#technologies">{t(`Technologies`)}</a>
+                            <a href="#technologies" className="lg:hover:scale-105 transition-transform">{t(`Technologies`)}</a>
                         </li>
 
                         <li className="font-header text-primary">
-                            <a href="#work-experience">{t(`Work experience`)}</a>
+                            <a href="#work-experience" className="lg:hover:scale-105 transition-transform">{t(`Work experience`)}</a>
                         </li>
 
                         <li className="font-header text-primary">
-                            <a href="#projects">{t(`Projects`)}</a>
+                            <a href="#projects" className="lg:hover:scale-105 transition-transform">{t(`Projects`)}</a>
                         </li>
                     </ul>
                 </div>
