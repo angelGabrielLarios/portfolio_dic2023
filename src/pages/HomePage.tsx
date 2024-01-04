@@ -30,7 +30,7 @@ export const HomePage = () => {
 
 
                             <motion.div
-                                initial={{ opacity: 0, translateX: '-100%' }}
+                                initial={{ opacity: 0, translateX: '-100%', transitionDuration: '0.4s' }}
                                 whileInView={{ opacity: 1, translateX: '0', }}
                                 viewport={{ once: true }}
                             >
@@ -42,7 +42,7 @@ export const HomePage = () => {
 
 
                             <motion.div
-                                initial={{ opacity: 0, translateX: '-100%' }}
+                                initial={{ opacity: 0, translateX: '-100%', transitionDuration: '0.4s' }}
                                 whileInView={{ opacity: 1, translateX: '0', }}
                                 viewport={{ once: true }}
 
@@ -56,7 +56,7 @@ export const HomePage = () => {
 
 
                             <motion.div
-                                initial={{ opacity: 0, translateX: '-100%' }}
+                                initial={{ opacity: 0, translateX: '-100%', transitionDuration: '0.4s' }}
                                 whileInView={{ opacity: 1, translateX: '0' }}
                                 viewport={{ once: true }}
                             >
@@ -74,7 +74,7 @@ export const HomePage = () => {
 
 
                         <motion.div
-                            initial={{ opacity: 0, translateX: '-100%', }}
+                            initial={{ opacity: 0, translateX: '-100%', transitionDuration: '0.4s' }}
                             whileInView={{ opacity: 1, translateX: '0', }}
                             viewport={{ once: true }}
                         >
@@ -95,7 +95,7 @@ export const HomePage = () => {
 
 
                         <motion.div
-                            initial={{ opacity: 0, translateX: '-100%', }}
+                            initial={{ opacity: 0, translateX: '-100%', transitionDuration: '0.4s' }}
                             whileInView={{ opacity: 1, translateX: '0', }}
                             viewport={{ once: true }}
                         >
@@ -131,7 +131,7 @@ export const HomePage = () => {
 
 
                         <motion.div
-                            initial={{ opacity: 0, translateX: '-100%' }}
+                            initial={{ opacity: 0, translateX: '-100%', transitionDuration: '0.4s' }}
                             whileInView={{ opacity: 1, translateX: '0', }}
                             viewport={{ once: true }}
                         >
@@ -158,7 +158,7 @@ export const HomePage = () => {
                     </article>
 
                     <motion.div
-                        initial={{ opacity: 0, translateX: '100%' }}
+                        initial={{ opacity: 0, translateX: '100%', transitionDuration: '0.4s' }}
                         whileInView={{ opacity: 1, translateX: '0', }}
                         viewport={{ once: true }}
                     >
@@ -182,7 +182,7 @@ export const HomePage = () => {
 
 
                     <motion.div
-                        initial={{ opacity: 0, translateX: '-100%' }}
+                        initial={{ opacity: 0, translateX: '-100%', transitionDuration: '0.4s' }}
                         whileInView={{ opacity: 1, translateX: '0%', }}
                         viewport={{ once: true }}
                     >
@@ -196,7 +196,7 @@ export const HomePage = () => {
                         <div className="tooltip" data-tip="HTML">
 
                             <motion.div
-                                initial={{ opacity: 0, }}
+                                initial={{ opacity: 0, transitionDuration: '0.4s' }}
                                 whileInView={{ opacity: 1, }}
                                 viewport={{ once: true }}
                             >
@@ -211,7 +211,7 @@ export const HomePage = () => {
                         <div className="tooltip" data-tip="CSS">
 
                             <motion.div
-                                initial={{ opacity: 0, }}
+                                initial={{ opacity: 0, transitionDuration: '0.4s' }}
                                 whileInView={{ opacity: 1, }}
                                 viewport={{ once: true }}
                             >
@@ -226,7 +226,7 @@ export const HomePage = () => {
                         <div className="tooltip" data-tip="JavaScript">
 
                             <motion.div
-                                initial={{ opacity: 0, }}
+                                initial={{ opacity: 0, transitionDuration: '0.4s' }}
                                 whileInView={{ opacity: 1, }}
                                 viewport={{ once: true }}
                             >
@@ -242,7 +242,7 @@ export const HomePage = () => {
 
 
                             <motion.div
-                                initial={{ opacity: 0, }}
+                                initial={{ opacity: 0, transitionDuration: '0.4s' }}
                                 whileInView={{ opacity: 1, }}
                                 viewport={{ once: true }}
                             >
@@ -257,7 +257,7 @@ export const HomePage = () => {
                         <div className="tooltip" data-tip="React.js">
 
                             <motion.div
-                                initial={{ opacity: 0, }}
+                                initial={{ opacity: 0, transitionDuration: '0.4s' }}
                                 whileInView={{ opacity: 1, }}
                                 viewport={{ once: true }}
                             >
@@ -272,7 +272,7 @@ export const HomePage = () => {
                         <div className="tooltip" data-tip="Tailwind CSS">
 
                             <motion.div
-                                initial={{ opacity: 0, }}
+                                initial={{ opacity: 0, transitionDuration: '0.4s' }}
                                 whileInView={{ opacity: 1, }}
                                 viewport={{ once: true }}
                             >
@@ -286,7 +286,7 @@ export const HomePage = () => {
 
                         <div className="tooltip" data-tip="Nest.js">
                             <motion.div
-                                initial={{ opacity: 0, }}
+                                initial={{ opacity: 0, transitionDuration: '0.4s' }}
                                 whileInView={{ opacity: 1, }}
                                 viewport={{ once: true }}
                             >
@@ -302,7 +302,7 @@ export const HomePage = () => {
                         <div className="tooltip" data-tip="Node.js">
 
                             <motion.div
-                                initial={{ opacity: 0, }}
+                                initial={{ opacity: 0, transitionDuration: '0.4s' }}
                                 whileInView={{ opacity: 1, }}
                                 viewport={{ once: true }}
                             >
@@ -319,7 +319,7 @@ export const HomePage = () => {
                         <div className="tooltip" data-tip="MySQL">
 
                             <motion.div
-                                initial={{ opacity: 0, }}
+                                initial={{ opacity: 0, transitionDuration: '0.4s' }}
                                 whileInView={{ opacity: 1, }}
                                 viewport={{ once: true }}
                             >
@@ -333,7 +333,7 @@ export const HomePage = () => {
 
                         <div className="tooltip" data-tip="Wordpress">
                             <motion.div
-                                initial={{ opacity: 0, }}
+                                initial={{ opacity: 0, transitionDuration: '0.4s' }}
                                 whileInView={{ opacity: 1, }}
                                 viewport={{ once: true }}
                             >
@@ -348,7 +348,7 @@ export const HomePage = () => {
 
                         <div className="tooltip" data-tip="Webflow">
                             <motion.div
-                                initial={{ opacity: 0, }}
+                                initial={{ opacity: 0, transitionDuration: '0.4s' }}
                                 whileInView={{ opacity: 1, }}
                                 viewport={{ once: true }}
                             >
@@ -373,7 +373,7 @@ export const HomePage = () => {
                 >
 
                     <motion.div
-                        initial={{ opacity: 0, translateX: '-100%' }}
+                        initial={{ opacity: 0, translateX: '-100%', transitionDuration: '0.4s' }}
                         whileInView={{ opacity: 1, translateX: '0%', }}
                         viewport={{ once: true }}
                     >
@@ -384,7 +384,7 @@ export const HomePage = () => {
 
 
                     <motion.div
-                        initial={{ opacity: 0, scale: 0.5 }}
+                        initial={{ opacity: 0, scale: 0.5, transitionDuration: '0.4s' }}
                         whileInView={{ opacity: 1, scale: 1 }}
                         viewport={{ once: true }}
                     >
@@ -431,7 +431,7 @@ export const HomePage = () => {
                 <article className="space-y-4">
 
                     <motion.div
-                        initial={{ opacity: 0, translateX: '-100%' }}
+                        initial={{ opacity: 0, translateX: '-100%', transitionDuration: '0.4s' }}
                         whileInView={{ opacity: 1, translateX: '0%', }}
                         viewport={{ once: true }}
                     >
@@ -445,7 +445,7 @@ export const HomePage = () => {
 
 
                         <motion.div
-                            initial={{ opacity: 0, scale: 0.5 }}
+                            initial={{ opacity: 0, scale: 0.5, transitionDuration: '0.4s' }}
                             whileInView={{ opacity: 1, scale: 1 }}
                             viewport={{ once: true }}
                         >
@@ -492,7 +492,7 @@ export const HomePage = () => {
 
 
                         <motion.div
-                            initial={{ opacity: 0, scale: 0.5 }}
+                            initial={{ opacity: 0, scale: 0.5, transitionDuration: '0.4s' }}
                             whileInView={{ opacity: 1, scale: 1 }}
                             viewport={{ once: true }}
                         >
@@ -505,7 +505,7 @@ export const HomePage = () => {
                                 }
                                 buttons={<div className="join">
                                     <a
-                                        href="https://exdoo.mx/"
+                                        href="https://golden-pavlova-22789d.netlify.app/"
                                         target="_blank"
                                         className="btn join-item text-xs sm:text-sm ">
                                         {t(`View`)}
@@ -534,7 +534,7 @@ export const HomePage = () => {
 
                         <motion.div
 
-                            initial={{ opacity: 0, scale: 0.5 }}
+                            initial={{ opacity: 0, scale: 0.5, transitionDuration: '0.4s' }}
                             whileInView={{ opacity: 1, scale: 1 }}
                             viewport={{ once: true }}
                         >
